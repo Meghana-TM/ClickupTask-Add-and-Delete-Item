@@ -1,0 +1,53 @@
+ /* Add some basic styling */
+ body{
+  background-color: rgb(68, 68, 68);
+}
+h1{
+  text-align: center;
+}
+
+#fruit-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  padding-top: 15px;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-bottom: 5px;
+  margin-left: 43%;
+  color: azure;
+  font-size: 20px;
+}
+
+#add-random-fruit {
+  align-items: center;
+  margin-left: 42%;
+  width: 280px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: rgb(72, 207, 217);
+  color: black;
+  font-weight: bolder;
+  margin-top: 50px;
+  text-align: center;
+  font-size: larger;
+  border: none;
+}
+.delete-fruit{
+  margin-right: 75%;
+  cursor: pointer;
+}
+img{
+  width: 20px;
+  height: 20px;
+}
+#add-random-fruit:active{
+  background-color: rgb(7, 130, 139);
+}
+#add-random-fruit:disabled {
+  background-color: #ccc;
+  /* cursor: not-allowed; */
+}
